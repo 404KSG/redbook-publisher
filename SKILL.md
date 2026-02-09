@@ -38,3 +38,22 @@ python scripts/publish_pipeline.py \
 - 发布前必须让用户确认内容
 - 小红书发布必须有图片
 - 如需登录，脚本会自动切换到有窗口模式
+
+## ⚠️ 重要提示
+
+### 草稿保存机制
+**小红书的草稿保存在浏览器本地，不是服务器端！**
+- ✅ 只能在脚本使用的 Chrome 浏览器中查看草稿
+- ❌ 换浏览器或设备看不到草稿
+- ❌ 清除浏览器数据会删除草稿
+- 📝 最多保存 100 篇草稿
+
+### 查看草稿的正确方式
+1. 打开脚本使用的 Chrome 浏览器（profile: `~/Google/Chrome/XiaohongshuProfiles/default`）
+2. 访问：https://creator.xiaohongshu.com/publish/publish
+3. 点击页面上的"草稿箱"标签
+
+### 避免多标签页问题
+- 脚本会自动管理标签页
+- 如果遇到问题，先关闭所有小红书标签页
+- 重新运行脚本
