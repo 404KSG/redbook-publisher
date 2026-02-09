@@ -7,12 +7,12 @@
 将项目复制到 Claude Code 的 skills 目录：
 
 ```bash
-cp -r redbook-publisher ~/.claude/skills/redbook-publisher
+cp -r redbook-publisher-skill ~/.claude/skills/redbook-publisher-skill
 ```
 
 ## 创建 SKILL.md
 
-在 `~/.claude/skills/redbook-publisher/` 目录下创建 `SKILL.md` 文件：
+在 `~/.claude/skills/redbook-publisher-skill/` 目录下创建 `SKILL.md` 文件：
 
 ```markdown
 # 小红书内容发布
